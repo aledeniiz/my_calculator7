@@ -31,6 +31,8 @@
 
                  <p>
 
+                         <button onclick="inverse()"> 1/x </button>
+
                          <button onclick="square()"> x^2 </button>
 
                          <button onclick="cube()"> x^3 </button>
@@ -79,6 +81,14 @@
                                   num.value = Math.pow(num.value, 2);
 >>>>>>> 98af5f0 (x^2 button)
 >>>>>>> e2a6c77 (x^2 button)
+
+                         }
+
+                         function inverse() {
+
+                                  var num = document.getElementById("n1");
+
+                                  num.value = 1/num.value;
 
                          }
 
